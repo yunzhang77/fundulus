@@ -1,0 +1,4 @@
+Downloading Trimmomatic:
+
+sudo apt-get update
+sudo apt-get install trimmomatic
