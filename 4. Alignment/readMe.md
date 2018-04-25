@@ -1,4 +1,4 @@
-# Step4. Alignmeng
+# Step4. Alignment
 ## Description
 With the edited genome annotaion, an index for alignment can be constructed using the annotation as a framework. Once an index has been creared, the data canbe aligned to the selected sections of genome.
 ## INPUT
