@@ -1,7 +1,7 @@
 # Running fastQC on HHMI cluster
 Using **nano** to create a **.qsub** file <br/>
 Type in following code:
-```
+```bash
 #!/bin/bash
 #PBS -k o
 #PBS -l nodes=1:ppn=4,walltime=200:00:00
