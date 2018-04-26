@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -l walltime=200:00:00
+#PBS -l nodes=4:ppn=16
+
+module load Java/1.8.0_92-foss-2016b
+module load Trimmomatic/0.36-foss-2016b-Java-1.8.0_92
+
+GENOME_FOLDER=/home/shared/genomes/fastq
+
+for d in ${GENOME_FOLDER}/donor*/lane*/*[ACGT].R1.fastq.gz; do
+
+DONOR_FOLDER=$(dirname $GENOME_FOLDER/d)
+  FASTQ_BASE=$(echo $d | sed s/'.R1.fastq.gz’//)
+  NOHUP_OUTFILE=$FASTQ_BASE.nohup.out
+
+  java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.36.jar PE 
+  ${FASTQ_BASE}.R1.fastq.gz 
+  ${FASTQ_BASE}.R2.fastq.gz 
+  ${FASTQ_BASE}_forward_paired.fastq.gz 
+  ${FASTQ_BASE}_forward_unpaired.fastq.gz 
+  ${FASTQ_BASE}_reverse_paired.fastq.gz 
+  ${FASTQ_BASE}_reverse_unpaired.fastq.gz  
+  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10
+done
