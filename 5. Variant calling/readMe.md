@@ -1,4 +1,5 @@
 # Step5. Variant calling
+![Screenshot](https://github.com/yunzhang77/fundulus/blob/master/Materials/varientcalling.png)
 ## Description
 Once the .bam files have been produced, they can be entered into GATK to identify variants within the sequence data for the regions of interest.
 ## INPUT
