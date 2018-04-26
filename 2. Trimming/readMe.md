@@ -1,4 +1,5 @@
 # Step 2. Trimming
+![Screenshot](https://github.com/yunzhang77/fundulus/blob/master/Materials/Trimmomatic.png)
 ## Description
 If raw fastq data have poor quality (per base sequence or GC content) or still have adapters attached, these sequence will be removed to improve overall read quality.
 
