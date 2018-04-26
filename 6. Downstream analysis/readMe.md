@@ -1,4 +1,5 @@
-#Step6. Downstream analysis
+# Step6. Downstream analysis
+![Screenshot](https://github.com/yunzhang77/fundulus/blob/master/Materials/downstreamAnalysis.png)
 ## Description
 Use IGV to visualize result. 
 ## INPUT
