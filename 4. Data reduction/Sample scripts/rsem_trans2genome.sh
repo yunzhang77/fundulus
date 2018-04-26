@@ -20,5 +20,5 @@ for d in ${SAMPLES_FOLDER}bams/*.bam; do
   BAM_BASE=$(echo $d | sed s/'.transcript.bam'//)
   FILT_PATH=$(echo $BAM_BASE | sed s/'bams'/'filt_bams'/)
  
-  rsem-tbam2gbam ref/star_fund_rsem $d ${FILT_PATH}.genome.bam
+  rsem-tbam2gbam ref/star_fund_rsem $d ${FILT_PATH}.genome
 done
