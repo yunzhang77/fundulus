@@ -5,5 +5,5 @@ Once reads from the Illumina machine are produced, check for adapters and any ju
 ## Input
 Raw fastq file
 ## Output
-Html file with quality report 
+HTML file with quality report 
 
