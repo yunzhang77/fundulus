@@ -26,8 +26,8 @@ module load fastqc
 mpirun fastqc *.fastq
 ```
 
-**Then type:**
-`qsub fastqc.qsub`  
+**Then type:**   
+`qsub fastqc.qsub`  
 
 `qstat` to check on it
 
