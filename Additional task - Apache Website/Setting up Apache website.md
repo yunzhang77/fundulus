@@ -8,7 +8,8 @@ sudo systemctl status apache2
 ```
 ## Initial testing
 Type your IP address in a browser <br/>
-If a website is shown in the brower, it means you have successfully set up Apache
+If a website is shown in the broswer, it means you have successfully set up Apache
+**NOTE:** For your IP address go to : http://ifconfig.me/
 
 ## Build website
 Under “It works!” it says “replace this file” , you want to copy the link that follows not including index.html (/var/www/html/)
