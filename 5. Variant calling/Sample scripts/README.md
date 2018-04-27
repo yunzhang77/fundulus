@@ -8,7 +8,7 @@
       * genome - `ref/GCF_000826765.1_Fundulus_heteroclitus-3.0.2_genomic.fa \`   
       * inputs - i.e. `${DATA_FOLDER}/filt_bams/BI-F1-0-1-star.genome_sorted.bam \`    
 **Input:** Refined and reduced .bams of scaffolds and contigs wanted  
-**Output:** mpileup file (all .bams merged)  
+**Output:** mpileup file (multiple .bams)  
 
 ## VCF.sh
 **Description:** Makes the VCF file from mpileup file  
