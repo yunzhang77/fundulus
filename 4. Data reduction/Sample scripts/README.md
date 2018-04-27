@@ -18,8 +18,8 @@
 **Output:** indexed genome .bam files  
 
 ## view_test_superlong.sh
-**Description:** Refining and reducing .bam files to scaffolds and contigs of interest.  
-      * samtools: merges indexed genome .bam files into one .bam  
+**Description:** Refining and reducing .bam files to scaffolds/contigs of interest.  
+      * samtools: merges indexed genome .bam files into one .bam for each sample  
                  views each individual scaffold/contig of interest  
 **Parameters:**   
       * piping views into single merge - `samtools merge -f ${FITH_PATH}`  
@@ -28,5 +28,5 @@
                     * sample file - `$d`  
                     * scaffold of interest - i.e. `NW_012234559.1)`  
 **Input:** indexed genome .bam files  
-**Output:** one merged .bam file  
+**Output:** one .bam file refined to contigs of interest for each sample  
                    
