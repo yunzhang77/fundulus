@@ -1,8 +1,8 @@
 # Data Reduction Scripts
 
 ## rsem_trans2genome.sh
-**Description:** Converts transcript .bam files to genome .bam files
-**Parameters:** reference - `rsem-tbam2gbam`
+####**Description:** Converts transcript .bam files to genome .bam files
+####**Parameters:** reference - `rsem-tbam2gbam`
                 sample - `ref/star_fund_rsem`
                 output - `$d ${FILT_PATH}.genome.bam`
 **Input:** transcript .bam files
