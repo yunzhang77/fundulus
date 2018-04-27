@@ -35,7 +35,14 @@ module load open64
 module load Trimmomatic
 
 mpirun
-java -jar /share/apps/Installs/walls/Trimmomatic-0.33/trimmomatic-0.33.jar PE -phred33 BI-F1-200-3_CGGCTATG-CAGGACGT_L001_R1_001.fastq.gz BI-F1-200-3_CGGCTATG-CAGGACGT_L001_R2_001.fastq.gz output_forward_paired.fq.gz output_forward_unpaired.fq.gz output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+java -jar /share/apps/Installs/walls/Trimmomatic-0.33/trimmomatic-0.33.jar PE -phred33 
+BI-F1-200-3_CGGCTATG-CAGGACGT_L001_R1_001.fastq.gz 
+BI-F1-200-3_CGGCTATG-CAGGACGT_L001_R2_001.fastq.gz 
+output_forward_paired.fq.gz 
+output_forward_unpaired.fq.gz 
+output_reverse_paired.fq.gz 
+output_reverse_unpaired.fq.gz 
+ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 ```
 **NOTE:** If you run more than these 2 files (a forward and reverse file) you either must run this bash script again with the new file names and a different name for the output files (so they don’t write over the output files you just made) OR copy and paste another of the following into your script for each additional foward and reverse files:
@@ -54,7 +61,7 @@ ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLE
 
 
 # Third way to run Trimmomatic on HHMI Cluster
-```
+```bash
 #!/bin/bash
 #PBS -k o
 #PBS -l nodes=2:ppn=8,walltime=200:00:00
