@@ -69,7 +69,7 @@ done
 **NOTE:** This script only handles two files at a time, add different files and different output names to get trimmomatic to run twice in the same script!
 
 ## Now...
-unzip the paired forward and reverse files that were output (use gunzip) and run FastQC again on those paired files!
+Unzip the paired forward and reverse files that were output (use gunzip) and run FastQC again on those paired files!
 **Note:** change .fastq to .fq in your bash script to run FastQC
 (You don’t necessarily need to gunzip files to run FastQC.)
 
