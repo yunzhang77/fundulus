@@ -2,7 +2,7 @@
 
 ## rsem_trans2genome.sh
 **Description:** Converts transcript .bam files to genome .bam files  
-**Parameters:** 
+**Parameters:**   
           * reference - `rsem-tbam2gbam`  
           * sample - `ref/star_fund_rsem`  
           * output - `$d ${FILT_PATH}.genome.bam`  
@@ -11,7 +11,7 @@
 
 ## index_test.sh
 **Description:** Indexes the genome .bam files to allow calling of coordinates  
-**Parameters:** 
+**Parameters:**   
           * samtools - `samtools`  
           * samples we want to index - `index $d`  
 **Input:** genome .bam files  
@@ -21,7 +21,7 @@
 **Description:** Refining and reducing .bam files to scaffolds and contigs of interest.  
       * samtools: merges indexed genome .bam files into one .bam  
                  views each individual scaffold/contig of interest  
-**Parameters:** 
+**Parameters:**   
       * piping views into single merge - `samtools merge -f ${FITH_PATH}`  
       * each view for different chromosomes - `<(samtools view `  
                     * .bam file - `-b`  
