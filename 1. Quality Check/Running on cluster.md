@@ -20,7 +20,7 @@ Then, type `qsub nameOfThisFile.qsub` on the terminal to submit the job.
 Type `qstat` to check on it  
 
 When it completes, check on the file put in your directory: 
-`nano hostname.pbs.o46193`
+`nano hostname.fastqc.o46193`
 
 To move fastqc reports to your Desktop:
 `scp wheaton0X@147.73.20.125:~/*.html ~/Desktop`
