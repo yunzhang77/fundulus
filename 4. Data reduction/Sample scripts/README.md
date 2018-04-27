@@ -8,14 +8,14 @@
 **Input:** transcript .bam files  
 **Output:** genome .bam files  
 
-##index_test.sh
+## index_test.sh
 **Description:** Indexes the genome .bam files to allow calling of coordinates  
 **Parameters:** samtools - `samtools`  
                 samples we want to index - `index $d`  
 **Input:** genome .bam files  
 **Output:** indexed genome .bam files  
 
-##view_test_superlong.sh
+## view_test_superlong.sh
 **Description:** Refining and reducing .bam files to scaffolds and contigs of interest.  
       *samtools: merges indexed genome .bam files into one .bam  
                  views each individual scaffold/contig of interest  
