@@ -7,4 +7,4 @@ Use IGV to visualize result.
 ## OUTPUT
 Graphic result
 ## NOTE
-This step is done on the local unix box
+This step is done on the local Unix box
