@@ -7,4 +7,4 @@ One mpileup file (multiple .bams)
 ## OUTPUT
 A .vcf file containing the variant callset for isolated genes
 ## NOTE
-This step in done in the HHMI cluster. 
+This step is done in the HHMI cluster. 
