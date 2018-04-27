@@ -23,7 +23,6 @@ When it completes, check on the file put in your directory:
 `nano hostname.pbs.o46193`
 
 To move fastqc reports to your Desktop:
-From your box:
 `scp wheaton0X@147.73.20.125:~/*.html ~/Desktop`
 
 Now rezip the .fastq files 
