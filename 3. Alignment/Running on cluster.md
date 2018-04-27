@@ -44,4 +44,6 @@ Done
 * with this script need to make sure your .fq files are now called something like: <br/>
 BI-F1-200-4-R1_paired.fastq and BI-F1-200-4-R2_paired.fastq 
 * make sure your paths are edited according to your files
+* ALSO MAKE SURE YOU COMPRESS YOUR FILES!! `gzip *_paired.fastq`
+
 
