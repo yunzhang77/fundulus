@@ -3,7 +3,7 @@
 ## Description
 Once the .bam files have been produced, they can be entered into varscan to identify variants within the sequence data for the regions of interest.
 ## INPUT
-One mpileup file (multiple .bams)
+one .bam file refined to contigs of interest for each sample (multiple .bams)
 ## OUTPUT
 A .vcf file containing the variant callset for isolated genes
 ## NOTE
