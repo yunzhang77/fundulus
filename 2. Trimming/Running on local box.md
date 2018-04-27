@@ -9,7 +9,7 @@ output_forward_paired.fq.gz output_forward_unpaired.fq.gz output_reverse_paired.
 
 LEADING:3 TRAILING:3
 ```
-## Instruction on modifying code
+## Instructions on modifying code
 The first line: run Trimmomatic <br/>
 The second line: fastq files of interest<br/>
 The third line: output file names/layout<br/>
@@ -30,6 +30,6 @@ Input Read Pairs: 2606633 Both Surviving: 2559506 (98.19%) Forward Only Survivin
                           
 TrimmomaticPE: Completed successfully
 ```
-## NOTE
+## NOTES
 * Discard unpaired reads files & extract paired reads files
 * Re-run FastQC on these paired reads files to verfify improved result
